@@ -1,0 +1,26 @@
+-
+  hangeul: ㅏ
+  latin: a
+  pronunciation: a
+  class: light
+-
+  hangeul: ㅓ
+  latin: e
+  pronunciation: e̞
+  class: light
+-
+  hangeul: ㅗ
+  latin: o
+  pronunciation: o̞
+  class: dark
+-
+  hangeul: ㅜ
+  latin: u
+  pronunciation: u
+  class: dark
+-
+  hangeul: ㅣ
+  latin: i
+  pronunciation: i
+  class: light
+

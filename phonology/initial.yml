@@ -1,0 +1,79 @@
+-
+  hangeul: ㄱ
+  latin: g
+  pronunciation: g
+  prohibited_final: [ ㅣ ]
+-
+  hangeul: ㄲ
+  latin: k
+  pronunciation: k
+  prohibited_final: [ ㅣ ]
+-
+  hangeul: ㄴ
+  latin: n
+  pronunciation: n
+  allophones:
+    -
+      final: ㅣ
+      pronunciation: ȵ
+-
+  hangeul: ㄷ
+  latin: d
+  pronunciation: d
+  prohibited_final: [ ㅣ ]
+-
+  hangeul: ㄸ
+  latin: t
+  pronunciation: t
+  prohibited_final: [ ㅣ ]
+-
+  hangeul: ㄹ
+  latin: r
+  pronunciation: ɻ
+  prohibited_final: [ ㅣ ]
+-
+  hangeul: ㅁ
+  latin: m
+  pronunciation: m
+-
+  hangeul: ㅂ
+  latin: b
+  pronunciation: b
+-
+  hangeul: ㅃ
+  latin: p
+  pronunciation: p
+-
+  hangeul: ㅅ
+  latin: z
+  pronunciation: z
+  allophones:
+    -
+      final: ㅣ
+      pronunciation: ʑ
+-
+  hangeul: ㅆ
+  latin: s
+  pronunciation: s
+  allophones:
+    -
+      final: ㅣ
+      pronunciation: ɕ
+-
+  hangeul: ㅇ
+  latin: j
+  pronunciation: j
+-
+  hangeul: ㅈ
+  latin: j
+  pronunciation: d͡ʑ
+-
+  hangeul: ㅉ
+  latin: ch
+  pronunciation: t͡ɕ
+-
+  hangeul: ㅎ
+  latin: w
+  pronunciation: w
+  prohibited_final: [ ㅓ, ㅣ ]
+
