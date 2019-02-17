@@ -8,6 +8,7 @@
   latin: k
   pronunciation: k
   prohibited_final: [ ㅣ ]
+  derived_from: ㄱ
 -
   hangeul: ㄴ
   latin: n
@@ -26,6 +27,7 @@
   latin: t
   pronunciation: t
   prohibited_final: [ ㅣ ]
+  derived_from: ㄷ
 -
   hangeul: ㄹ
   latin: r
@@ -43,6 +45,7 @@
   hangeul: ㅃ
   latin: p
   pronunciation: p
+  derived_from: ㅂ
 -
   hangeul: ㅅ
   latin: z
@@ -59,6 +62,7 @@
     -
       final: ㅣ
       pronunciation: ɕ
+  derived_from: ㅅ
 -
   hangeul: ㅇ
   latin: j
@@ -71,6 +75,7 @@
   hangeul: ㅉ
   latin: ch
   pronunciation: t͡ɕ
+  derived_from: ㅈ
 -
   hangeul: ㅎ
   latin: w
