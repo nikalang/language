@@ -1,0 +1,523 @@
+# Syllables (68 syllables)
+
+# 'g'-onset (4 syllables)
+
+-
+  hangeul: 가
+  latin: ga
+  pronunciation: ga
+  initial: ㄱ
+  final: ㅏ
+  class: light
+-
+  hangeul: 거
+  latin: ge
+  pronunciation: ge̞
+  initial: ㄱ
+  final: ㅓ
+  class: light
+-
+  hangeul: 고
+  latin: go
+  pronunciation: go̞
+  initial: ㄱ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 구
+  latin: gu
+  pronunciation: gu
+  initial: ㄱ
+  final: ㅜ
+  class: dark
+
+# 'k'-onset (4 syllables)
+
+-
+  hangeul: 까
+  latin: ka
+  pronunciation: ka
+  initial: ㄲ
+  final: ㅏ
+  class: light
+-
+  hangeul: 꺼
+  latin: ke
+  pronunciation: ke̞
+  initial: ㄲ
+  final: ㅓ
+  class: light
+-
+  hangeul: 꼬
+  latin: ko
+  pronunciation: ko̞
+  initial: ㄲ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 꾸
+  latin: ku
+  pronunciation: ku
+  initial: ㄲ
+  final: ㅜ
+  class: dark
+
+# 'n'-onset (5 syllables)
+
+-
+  hangeul: 나
+  latin: na
+  pronunciation: na
+  initial: ㄴ
+  final: ㅏ
+  class: light
+-
+  hangeul: 너
+  latin: ne
+  pronunciation: ne̞
+  initial: ㄴ
+  final: ㅓ
+  class: light
+-
+  hangeul: 노
+  latin: no
+  pronunciation: no̞
+  initial: ㄴ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 누
+  latin: nu
+  pronunciation: nu
+  initial: ㄴ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 니
+  latin: ni
+  pronunciation: ȵi
+  initial: ㄴ
+  final: ㅣ
+  class: light
+
+# 'd'-onset (4 syllables)
+
+-
+  hangeul: 다
+  latin: da
+  pronunciation: da
+  initial: ㄷ
+  final: ㅏ
+  class: light
+-
+  hangeul: 더
+  latin: de
+  pronunciation: de̞
+  initial: ㄷ
+  final: ㅓ
+  class: light
+-
+  hangeul: 도
+  latin: do
+  pronunciation: do̞
+  initial: ㄷ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 두
+  latin: du
+  pronunciation: du
+  initial: ㄷ
+  final: ㅜ
+  class: dark
+
+# 't'-onset (4 syllables)
+
+-
+  hangeul: 따
+  latin: ta
+  pronunciation: ta
+  initial: ㄸ
+  final: ㅏ
+  class: light
+-
+  hangeul: 떠
+  latin: te
+  pronunciation: te̞
+  initial: ㄸ
+  final: ㅓ
+  class: light
+-
+  hangeul: 또
+  latin: to
+  pronunciation: to̞
+  initial: ㄸ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 뚜
+  latin: tu
+  pronunciation: tu
+  initial: ㄸ
+  final: ㅜ
+  class: dark
+
+# 'r'-onset (4 syllables)
+
+-
+  hangeul: 라
+  latin: ra
+  pronunciation: ɻa
+  initial: ㄹ
+  final: ㅏ
+  class: light
+-
+  hangeul: 러
+  latin: re
+  pronunciation: ɻe̞
+  initial: ㄹ
+  final: ㅓ
+  class: light
+-
+  hangeul: 로
+  latin: ro
+  pronunciation: ɻo̞
+  initial: ㄹ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 루
+  latin: ru
+  pronunciation: ɻu
+  initial: ㄹ
+  final: ㅜ
+  class: dark
+
+# 'm'-onset (5 syllables)  
+
+-
+  hangeul: 마
+  latin: ma
+  pronunciation: ma
+  initial: ㅁ
+  final: ㅏ
+  class: light
+-
+  hangeul: 머
+  latin: me
+  pronunciation: me̞
+  initial: ㅁ
+  final: ㅓ
+  class: light
+-
+  hangeul: 모
+  latin: mo
+  pronunciation: mo̞
+  initial: ㅁ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 무
+  latin: mu
+  pronunciation: mu
+  initial: ㅁ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 미
+  latin: mi
+  pronunciation: mi
+  initial: ㅁ
+  final: ㅣ
+  class: light
+
+# 'b'-onset (5 syllables)
+
+-
+  hangeul: 바
+  latin: ba
+  pronunciation: ba
+  initial: ㅂ
+  final: ㅏ
+  class: light
+-
+  hangeul: 버
+  latin: be
+  pronunciation: be̞
+  initial: ㅂ
+  final: ㅓ
+  class: light
+-
+  hangeul: 보
+  latin: bo
+  pronunciation: bo̞
+  initial: ㅂ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 부
+  latin: bu
+  pronunciation: bu
+  initial: ㅂ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 비
+  latin: bi
+  pronunciation: bi
+  initial: ㅂ
+  final: ㅣ
+  class: light
+
+# 'p'-onset (5 syllables)
+
+-
+  hangeul: 빠
+  latin: pa
+  pronunciation: pa
+  initial: ㅃ
+  final: ㅏ
+  class: light
+-
+  hangeul: 뻐
+  latin: pe
+  pronunciation: pe̞
+  initial: ㅃ
+  final: ㅓ
+  class: light
+-
+  hangeul: 뽀
+  latin: po
+  pronunciation: po̞
+  initial: ㅃ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 뿌
+  latin: pu
+  pronunciation: pu
+  initial: ㅃ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 삐
+  latin: pi
+  pronunciation: pi
+  initial: ㅃ
+  final: ㅣ
+  class: light
+
+# 'z'-onset (5 syllables)
+
+-
+  hangeul: 사
+  latin: za
+  pronunciation: za
+  initial: ㅅ
+  final: ㅏ
+  class: light
+-
+  hangeul: 서
+  latin: ze
+  pronunciation: ze̞
+  initial: ㅅ
+  final: ㅓ
+  class: light
+-
+  hangeul: 소
+  latin: zo
+  pronunciation: zo̞
+  initial: ㅅ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 수
+  latin: zu
+  pronunciation: zu
+  initial: ㅅ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 시
+  latin: zi
+  pronunciation: ʑi
+  initial: ㅅ
+  final: ㅣ
+  class: light
+
+# 's'-onset (5 syllables)
+
+-
+  hangeul: 싸
+  latin: sa
+  pronunciation: sa
+  initial: ㅆ
+  final: ㅏ
+  class: light
+-
+  hangeul: 써
+  latin: se
+  pronunciation: se̞
+  initial: ㅆ
+  final: ㅓ
+  class: light
+-
+  hangeul: 쏘
+  latin: so
+  pronunciation: so̞
+  initial: ㅆ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 쑤
+  latin: su
+  pronunciation: su
+  initial: ㅆ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 씨
+  latin: si
+  pronunciation: ɕi
+  initial: ㅆ
+  final: ㅣ
+  class: light
+
+# 'y'-onset (5 syllables)
+
+-
+  hangeul: 아
+  latin: ya
+  pronunciation: ja
+  initial: ㅇ
+  final: ㅏ
+  class: light
+-
+  hangeul: 어
+  latin: ye
+  pronunciation: je̞
+  initial: ㅇ
+  final: ㅓ
+  class: light
+-
+  hangeul: 오
+  latin: yo
+  pronunciation: jo̞
+  initial: ㅇ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 우
+  latin: yu
+  pronunciation: ju
+  initial: ㅇ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 이
+  latin: yi
+  pronunciation: ji
+  initial: ㅇ
+  final: ㅣ
+  class: light
+
+# 'j'-onset (5 syllables)
+
+-
+  hangeul: 자
+  latin: ja
+  pronunciation: d͡ʑa
+  initial: ㅈ
+  final: ㅏ
+  class: light
+-
+  hangeul: 저
+  latin: je
+  pronunciation: d͡ʑe̞
+  initial: ㅈ
+  final: ㅓ
+  class: light
+-
+  hangeul: 조
+  latin: jo
+  pronunciation: d͡ʑo̞
+  initial: ㅈ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 주
+  latin: ju
+  pronunciation: d͡ʑu
+  initial: ㅈ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 지
+  latin: ji
+  pronunciation: d͡ʑi
+  initial: ㅈ
+  final: ㅣ
+  class: light
+
+# 'ch'-onset (5 syllables)
+
+-
+  hangeul: 짜
+  latin: cha
+  pronunciation: t͡ɕa
+  initial: ㅉ
+  final: ㅏ
+  class: light
+-
+  hangeul: 쩌
+  latin: che
+  pronunciation: t͡ɕe̞
+  initial: ㅉ
+  final: ㅓ
+  class: light
+-
+  hangeul: 쪼
+  latin: cho
+  pronunciation: t͡ɕo̞
+  initial: ㅉ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 쭈
+  latin: chu
+  pronunciation: t͡ɕu
+  initial: ㅉ
+  final: ㅜ
+  class: dark
+-
+  hangeul: 찌
+  latin: chi
+  pronunciation: t͡ɕi
+  initial: ㅉ
+  final: ㅣ
+  class: light
+
+# 'w'-onset (3 syllables)
+
+-
+  hangeul: 하
+  latin: wa
+  pronunciation: wa
+  initial: ㅎ
+  final: ㅏ
+  class: light
+-
+  hangeul: 호
+  latin: wo
+  pronunciation: wo̞
+  initial: ㅎ
+  final: ㅗ
+  class: dark
+-
+  hangeul: 후
+  latin: wu
+  pronunciation: wu
+  initial: ㅎ
+  final: ㅜ
+  class: dark
+
