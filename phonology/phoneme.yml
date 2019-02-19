@@ -1,0 +1,103 @@
+-
+  phoneme: m
+  grapheme: ㅁ
+  class: consonant
+-
+  phoneme: b
+  grapheme: ㅂ
+  class: consonant
+-
+  phoneme: p
+  grapheme: ㅃ
+  class: consonant
+-
+  phoneme: n
+  grapheme: ㄴ
+  class: consonant
+-
+  phoneme: d
+  grapheme: ㄷ
+  class: consonant
+-
+  phoneme: t
+  grapheme: ㄸ
+  class: consonant
+-
+  phoneme: z
+  grapheme: ㅅ
+  class: consonant
+-
+  phoneme: s
+  grapheme: ㅆ
+  class: consonant
+-
+  phoneme: ɻ
+  grapheme: ㄹ
+  class: consonant
+-
+  phoneme: ȵ
+  grapheme: ㄴ
+  class: consonant
+  allophone:
+    base: n
+    final: ㅣ
+
+-
+  phoneme: d͡ʑ
+  grapheme: ㅈ
+  class: consonant
+-
+  phoneme: t͡ɕ
+  grapheme: ㅉ
+  class: consonant
+-
+  phoneme: ʑ
+  grapheme: ㅅ
+  class: consonant
+  allophone:
+    base: z
+    final: ㅣ
+-
+  phoneme: ɕ
+  grapheme: ㅆ
+  class: consonant
+  allophone:
+    base: s
+    final: ㅣ
+-
+  phoneme: j
+  grapheme: ㅇ
+  class: consonant
+-
+  phoneme: i
+  grapheme: ㅣ
+  class: vowel
+-
+  phoneme: e̞
+  grapheme: ㅓ
+  class: vowel
+-
+  phoneme: a
+  grapheme: ㅏ
+  class: vowel
+-
+  phoneme: g
+  grapheme: ㄱ
+  class: consonant
+-
+  phoneme: k
+  grapheme: ㄲ
+  class: consonant
+-
+  phoneme: w
+  grapheme: ㅎ
+  class: consonant
+-
+  phoneme: u
+  grapheme: ㅜ
+  class: vowel
+-
+  phoneme: o̞
+  grapheme: ㅗ
+  class: vowel
+
