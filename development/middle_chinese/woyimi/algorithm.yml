@@ -33,11 +33,6 @@
       - s/^ʂ/s/
       - s/^ʐ/z/
   -
-    id: palatalize_dental_affricates
-    transformations:
-      - s/^t͡s/t͡ɕ/
-      - s/^d͡z/d͡ʑ/
-  -
     id: TODO
     transformations:
       - s/^l/ɻ/
@@ -61,7 +56,9 @@
   -
     id: TODO
     transformations:
+      # ?
       - s/ɨuɑ$/wa/
+      # ?
       - s/ɨɑ$/a/
       - s/uɑ$/wa/
       - s/ɑ$/a/
@@ -265,4 +262,9 @@
     id: drop_TODO
     transformations:
       - s/∅//
+  -
+    id: palatalize_dental_affricates
+    transformations:
+      - s/^t͡s/t͡ɕ/
+      - s/^d͡z/d͡ʑ/
 
