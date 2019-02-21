@@ -1,9 +1,13 @@
 - name: kaniyimi
 - stages:
-  -
+    -
     id: drop_tone
     transformations:
       - s/[ᴴˣ]//
+  -
+    id: convert_palatal_nasal_to_retroflex_approximant
+    transformations:
+      - s/^ȵ/ɻ/
   -
     id: merge_palatals_with_retroflex
     transformations:
@@ -12,36 +16,36 @@
       - s/^ɕ/ʂ/
       - s/^ʑ/ʐ/
   -
-    id: TODO
+    id: transform_palatal_approximant_to_velar
     transformations:
       - s/^j/ɰ/
   -
-    id: merge_retroflex_dz_affricate_with_z_fricative
+    id: convert_palatalized_allophone_of_velar_fricative_to_approximant
+    transformations:
+      - s/^ɦ([ˠiɨ])/ɰ$1/
+  -
+    id: convert_retroflex_dz_to_z
     transformations:
       - s/^ɖ͡ʐ/ʐ/
+  -
+    id: convert_retroflex_r_to_z
+    transformations:
+      - s/^ɻ/ʐ/
+  -
+    id: merge_retroflex_stops_with_affricates
+    transformations:
+      - s/^ʈ/ʈ͡ʂ/
+      - s/^ɖ/ɖ͡ʐ/
   -
     id: merge_retroflex_with_dentals
     transformations:
       - s/^ɳ/n/
-      - s/^ʈ/t/
-      - s/^ɖ/d/
       - s/^ʈ͡ʂ/t͡s/
+      - s/^ɖ͡ʐ/d͡z/
       - s/^ʂ/s/
       - s/^ʐ/z/
   -
-    id: TODO
-    transformations:
-      - s/^l/ɻ/
-  -
-    id: drop_glottal_stop
-    transformations:
-      - s/^ʔ/∅/
-  -
-    id: TODO
-    transformations:
-      - s/^ɦ([ˠiɨ])/ɰ$1/
-  -
-    id: TODO      
+    id: add_breathy_voice_to_voiced_consonants
     transformations:
       - s/^b/bʱ/
       - s/^d/dʱ/
@@ -50,43 +54,44 @@
       - s/^g/gʱ/
       - s/^ɦ/ɦʱ/
   -
-    id: TODO      
+    id: devoice_voiced_consonants
     transformations:
-      - s/^bʱ/pɦ/
-      - s/^dʱ/tɦ/
-      - s/^zʱ/sɦ/
-      - s/^d͡zʱ/t͡sɦ/
-      - s/^gʱ/kɦ/
-      - s/^ɦʱ/hɦ/
+      - s/^b/p/
+      - s/^d/t/
+      - s/^z/s/
+      - s/^d͡z/t͡s/
+      - s/^g/k/
+      - s/^ɦ/h/
+  -
+    id: denasalize_nasals
+    transformations:
+      - s/^m/b/
+      - s/^n/d/
+      - s/^ŋ/g/      
   -
     id: drop_aspiration
     transformations:
       - s/ʰ//
   -
-    id: TODO      
+    id: drop_breathy_voice
     transformations:
-      - s/^(t͡s|[ptskh])ɦ/$1/
+      - s/ʱ//
   -
-    id: TODO
+    id: drop_glottal_stop
+    transformations:
+      - s/^ʔ/∅/    
+  -
+    id: merge_glottal_fricatives_with_velar_stops
     transformations:
       - s/^h/k/
   -
-    id: TODO      
+    id: merge_lateral_dental_approximant_with_retroflex_approximant
     transformations:
-      - s/^m/b/
-      - s/^n/d/
-      - s/^ȵ/d͡ʑ/
-      - s/^ŋ/g/
-  -
-    id: TODO      
-    transformations:
-      - s/^d͡ʑ/d͡z/
+      - s/^l/ɻ/
   -
     id: TODO
     transformations:
-      # ?
       - s/ɨuɑ$/wa/
-      # ?
       - s/ɨɑ$/a/
       - s/uɑ$/wa/
       - s/ɑ$/a/
@@ -99,45 +104,44 @@
   -
     id: TODO
     transformations:
-      - s/ʌi$/e/
       - s/uʌi$/we/
-      - s/ɑi$/e/
+      - s/ʌi$/e/
       - s/uɑi$/we/
-      - s/ˠɛi$/e/
+      - s/ɑi$/e/
       - s/ˠuɛi$/we/
-      - s/ˠɛ$/e/
-      - s/ˠuɛ$/we/
-      - s/ˠai$/e/
+      - s/ˠɛi$/e/
+      - s/ˠuɛ$/wa/
+      - s/ˠɛ$/a/
       - s/ˠuai$/we/
       - s/ˠai$/e/
-      - s/ˠiᴇi$/je/
-      - s/iᴇi$/je/
       - s/ˠiuᴇi$/we/
       - s/iuᴇi$/we/
-      - s/ɨɐi$/je/
+      - s/ˠiᴇi$/je/
+      - s/iᴇi$/je/
       - s/ʉɐi$/we/
-      - s/ei$/e/
+      - s/ɨɐi$/e/
       - s/wei$/we/
-      - s/iᴇ$/i/
-      - s/ˠiᴇ$/i/
-      - s/iuᴇ$/wi/
+      - s/ei$/je/
       - s/ˠiuᴇ$/wi/
-      - s/ˠiɪ$/i/
-      - s/iɪ$/i/
+      - s/iuᴇ$/wi/
+      - s/ˠiᴇ$/i/
+      - s/iᴇ$/i/
       - s/ˠiuɪ$/wi/
       - s/iuɪ$/wi/
-      - s/ɨi$/i/
+      - s/ˠiɪ$/i/
+      - s/iɪ$/i/
       - s/ʉi$/wi/
+      - s/ɨi$/i/
   -
     id: TODO
     transformations:
       - s/ɑu$/o/
-      - s/ˠau$/jo/
+      - s/ˠau$/o/
       - s/ˠiᴇu$/jo/
       - s/iᴇu$/jo/
       - s/eu$/jo/
       - s/əu$/u/
-      - s/ɨu$/ju/
+      - s/ɨu$/u/
       - s/iɪu$/ju/
   -
     id: TODO
@@ -148,9 +152,9 @@
       - s/ˠam$/a.bu/
       - s/ˠiᴇm$/je.bu/
       - s/iᴇm$/je.bu/
-      - s/ɨɐm$/ja.bu/
-      - s/ʉɐm$/ja.bu/
-      - s/em$/e.bu/
+      - s/ɨɐm$/a.bu/
+      - s/ʉɐm$/wa.bu/
+      - s/em$/je.bu/
       - s/ˠiɪm$/i.bu/
       - s/iɪm$/i.bu/
   -
@@ -162,115 +166,115 @@
       - s/ˠap̚$/a.pu/
       - s/ˠiᴇp̚$/je.pu/
       - s/iᴇp̚$/je.pu/
-      - s/ɨɐp̚$/ja.pu/
-      - s/ʉɐp̚$/ja.pu/
-      - s/ep̚$/e.pu/
+      - s/ɨɐp̚$/a.pu/
+      - s/ʉɐp̚$/wa.pu/
+      - s/ep̚$/je.pu/
       - s/ˠiɪp̚$/i.pu/
       - s/iɪp̚$/i.pu/  
   -
     id: TODO
     transformations:
-      - s/ɑn$/a.du/
       - s/uɑn$/wa.du/
-      - s/ˠan$/a.du/
+      - s/ɑn$/a.du/
       - s/ˠuan$/wa.du/
-      - s/ˠɛn$/a.du/
+      - s/ˠan$/a.du/
       - s/ˠuɛn$/wa.du/
-      - s/ˠiᴇn$/je.du/
-      - s/iᴇn$/je.du/
+      - s/ˠɛn$/a.du/
       - s/ˠiuᴇn$/we.du/
       - s/iuᴇn$/we.du/
-      - s/ɨɐn$/ja.du/
-      - s/ʉɐn$/ja.du/
-      - s/en$/e.du/
+      - s/ˠiᴇn$/je.du/
+      - s/iᴇn$/je.du/
+      - s/ɨɐn$/a.du/
+      - s/ʉɐn$/wa.du/
       - s/wen$/we.du/
+      - s/en$/je.du/
+      - s/uən$/o.du/
       - s/ən$/o.du/
-      - s/wən$/o.du/
       - s/ɪn$/i.du/
-      - s/ˠiɪn$/i.du/
-      - s/iɪn$/i.du/
       - s/ˠiuɪn$/wi.du/
       - s/iuɪn$/wi.du/
-      - s/ɨn$/o.du/
+      - s/ˠiɪn$/i.du/
+      - s/iɪn$/i.du/
+      - s/ɨn$/i.du/
       - s/ɨun$/u.du/
   -
     id: TODO
     transformations:
-      - s/ɑt̚$/a.tu/
-      - s/uɑt̚$/wa.tu/
-      - s/ˠat̚$/a.tu/
-      - s/ˠuat̚$/wa.tu/
-      - s/ˠɛt̚/a.tu/
+      - s/uɑt̚/wa.tu/
+      - s/ɑt̚/a.tu/
+      - s/ˠuat̚/wa.tu/
+      - s/ˠat̚/a.tu/
       - s/ˠuɛt̚/wa.tu/
-      - s/ˠiᴇt̚/je.tu/
-      - s/iᴇt̚/je.tu/
+      - s/ˠɛt̚/a.tu/
       - s/ˠiuᴇt̚/we.tu/
       - s/iuᴇt̚/we.tu/
-      - s/ɨɐt̚/ja.tu/
-      - s/ʉɐt̚/ja.tu/
-      - s/et̚/e.tu/
+      - s/ˠiᴇt̚/je.tu/
+      - s/iᴇt̚/je.tu/
+      - s/ɨɐt̚/a.tu/
+      - s/ʉɐt̚/wa.tu/
       - s/wet̚/we.tu/
+      - s/et̚/je.tu/
+      - s/uət̚/o.tu/
       - s/ət̚/o.tu/
-      - s/wət̚/o.tu/
       - s/ɪt̚/i.tu/
-      - s/ˠiɪt̚/i.tu/
-      - s/iɪt̚/i.tu/
       - s/ˠiuɪt̚/wi.tu/
       - s/iuɪt̚/wi.tu/
-      - s/ɨt̚/o.tu/
+      - s/ˠiɪt̚/i.tu/
+      - s/iɪt̚/i.tu/
+      - s/ɨt̚/i.tu/
       - s/ɨut̚/u.tu/
   -
     id: TODO
     transformations:
-      - s/ɑŋ$/a.gu/
       - s/wɑŋ$/wa.gu/
-      - s/ɨɐŋ$/ja.gu/
+      - s/ɑŋ$/a.gu/
       - s/ʉɐŋ$/wa.gu/
+      - s/ɨɐŋ$/a.gu/
       - s/ˠʌŋ$/a.gu/
-      - s/əŋ$/o.gu/
       - s/wəŋ$/o.gu/
-      - s/ɨŋ$/o.gu/
-      - s/wɨŋ$/o.gu/
-      - s/ˠæŋ$/jo.gu/
-      - s/wˠæŋ$/o.gu/
-      - s/ˠɛŋ$/jo.gu/
-      - s/wˠɛŋ$/o.gu/
-      - s/ˠiæŋ$/jo.gu/
-      - s/wˠiæŋ$/o.gu/
-      - s/iᴇŋ$/je.gu/
+      - s/əŋ$/o.gu/
+      - s/wɨŋ$/wi.gu/
+      - s/ɨŋ$/i.gu/
+      - s/wˠæŋ$/wa.gu/
+      - s/ˠæŋ$/a.gu/
+      - s/wˠɛŋ$/wa.gu/
+      - s/ˠɛŋ$/a.gu/
+      - s/wˠiæŋ$/wa.gu/
+      - s/ˠiæŋ$/ja.gu/
       - s/wiᴇŋ$/we.gu/
-      - s/eŋ$/e.gu/
+      - s/iᴇŋ$/je.gu/
       - s/weŋ$/we.gu/
-      - s/uŋ$/o.gu/
+      - s/eŋ$/je.gu/
+      - s/uŋ$/u.gu/
       - s/uoŋ$/o.gu/
-      - s/ɨuŋ$/o.gu/
-      - s/ɨoŋ$/o.gu/
+      - s/ɨuŋ$/u.gu/
+      - s/ɨoŋ$/u.gu/
   -
     id: TODO
     transformations:
-      - s/ɑk̚/a.ku/
       - s/wɑk̚/wa.ku/
-      - s/ɨɐk̚/ja.ku/
+      - s/ɑk̚/a.ku/
       - s/ʉɐk̚/wa.ku/
+      - s/ɨɐk̚/a.ku/
       - s/ˠʌk̚/a.ku/
-      - s/ək̚/o.ku/
       - s/wək̚/o.ku/
-      - s/ɨk̚/o.ku/
-      - s/wɨk̚/o.ku/
-      - s/ˠæk̚/jo.ku/
-      - s/wˠæk̚/o.ku/
-      - s/ˠɛk̚/jo.ku/
-      - s/wˠɛk̚/o.ku/
-      - s/ˠiæk̚/jo.ku/
-      - s/wˠiæk̚/o.ku/
-      - s/iᴇk̚/je.ku/
+      - s/ək̚/o.ku/
+      - s/wɨk̚/wi.ku/
+      - s/ɨk̚/i.ku/
+      - s/wˠæk̚/wa.ku/
+      - s/ˠæk̚/a.ku/
+      - s/wˠɛk̚/wa.ku/
+      - s/ˠɛk̚/a.ku/
+      - s/wˠiæk̚/wa.ku/
+      - s/ˠiæk̚/ja.ku/
       - s/wiᴇk̚/we.ku/
-      - s/ek̚/e.ku/
+      - s/iᴇk̚/je.ku/
       - s/wek̚/we.ku/
-      - s/uk̚/o.ku/
+      - s/ek̚/je.ku/
+      - s/uk̚/u.ku/
       - s/uok̚/o.ku/
-      - s/ɨuk̚/o.ku/
-      - s/ɨok̚/o.ku/
+      - s/ɨuk̚/u.ku/
+      - s/ɨok̚/u.ku/
   -
     id: drop_TODO
     transformations:
