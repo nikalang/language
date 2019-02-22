@@ -5,6 +5,11 @@
     transformations:
       - s/[ᴴˣ]//
   -
+    id: merge_retroflex_stops_with_affricates
+    transformations:
+      - s/^ʈ/ʈ͡ʂ/
+      - s/^ɖ/ɖ͡ʐ/
+  -
     id: convert_palatal_nasal_to_retroflex_approximant
     transformations:
       - s/^ȵ/ɻ/
@@ -27,11 +32,6 @@
     id: convert_retroflex_dz_to_z
     transformations:
       - s/^ɖ͡ʐ/ʐ/
-  -
-    id: merge_retroflex_stops_with_affricates
-    transformations:
-      - s/^ʈ/ʈ͡ʂ/
-      - s/^ɖ/ɖ͡ʐ/
   -
     id: merge_retroflex_with_dentals
     transformations:
@@ -111,7 +111,7 @@
   -
     id: TODO
     transformations:
-      - s/[iɪ]/i/
+      - s/ɪ/i/
   -
     id: TODO
     transformations:
@@ -127,11 +127,13 @@
   -
     id: TODO
     transformations:
-      - s/([aei])([mnŋp̚t̚k̚])/$1.$2i/
+      - s/([aei])([mnŋ])/$1.$2i/
+      - s/([aei])([ptk]\u031A)/$1.$2i/
   -
     id: TODO
     transformations:
-      - s/([ou])([mnŋp̚t̚k̚])/$1.$2u/
+      - s/([ou])([mnŋ])/$1.$2u/
+      - s/([ou])([ptk]\u031A)/$1.$2u/
   -
     id: TODO
     transformations:
@@ -166,6 +168,60 @@
       - s/\.di/.d͡zi/
       - s/\.gi/.t͡si/
   -
-    id: drop_TODO
+    id: TODO
+    transformations:
+      - s/ŋ/∅/
+  -
+    id: TODO
     transformations:
       - s/∅//
+  -
+    id: TODO
+    transformations:
+      - s/\.i/.ji/
+      - s/\.u/.wu/
+  -
+    id: TODO
+    transformations:
+      - s/ɰ([aeiou])/j$1/
+  -
+    id: TODO
+    transformations:
+      - s/ɰj([aeou])/j$1/
+  -
+    id: TODO
+    transformations:
+      - s/ɰw([aeiou])/w$1/
+  -
+    id: TODO
+    transformations:
+      - s/(.)wa/$1a/
+      - s/w([ei])/$1/
+  -
+    id: TODO
+    transformations:
+      - s/(.)j[aeou]/$1i/
+  -
+    id: TODO
+    transformations:
+      - s/^a/wa/
+      - s/^e/je/
+      - s/^i/ji/
+      - s/^o/wo/
+      - s/^u/wu/
+  -
+    id: palatalize_dental_affricates
+    transformations:
+      - s/t͡s/t͡ɕ/
+      - s/d͡z/d͡ʑ/
+  -
+    id: TODO
+    transformations:
+      - s/ɻi/ji/
+  -
+    id: TODO
+    transformations:
+      - s/ni/ȵi/
+      - s/si/ɕi/
+      - s/zi/ʑi/
+
