@@ -68,7 +68,7 @@
   -
     id: TODO
     transformations:
-      - s/([aeᴇɪəɑ])u$/$1u̯/     
+      - s/([aeᴇɪəɑ])u$/$1u̯/
   -
     id: TODO
     transformations:
@@ -195,6 +195,16 @@
   -
     id: TODO
     transformations:
+      - s/[tk]i/t͡si/
+      - s/[dg]i/d͡zi/
+  -
+    id: TODO
+    transformations:
+      - s/[tk]j/t͡s/
+      - s/[dg]j/d͡z/
+  -
+    id: TODO
+    transformations:
       - s/(.)wa/$1a/
       - s/w([ei])/$1/
   -
@@ -224,4 +234,84 @@
       - s/ni/ȵi/
       - s/si/ɕi/
       - s/zi/ʑi/
+  -
+    id: TODO
+    transformations:
+      - s/e/e̞/
+  -
+    id: TODO
+    transformations:
+      - s/o/o̞/
+  -
+    id: TODO
+    transformations:
+      - s/d͡ʑa/자/
+      - s/d͡ʑe̞/저/
+      - s/d͡ʑo̞/조/
+      - s/d͡ʑu/주/
+      - s/d͡ʑi/지/
+      - s/t͡ɕa/짜/
+      - s/t͡ɕe̞/쩌/
+      - s/t͡ɕo̞/쪼/
+      - s/t͡ɕu/쭈/
+      - s/t͡ɕi/찌/
+      - s/ga/가/
+      - s/ge̞/거/
+      - s/go̞/고/
+      - s/gu/구/
+      - s/ka/까/
+      - s/ke̞/꺼/
+      - s/ko̞/꼬/
+      - s/ku/꾸/
+      - s/na/나/
+      - s/ne̞/너/
+      - s/no̞/노/
+      - s/nu/누/
+      - s/ȵi/니/
+      - s/da/다/
+      - s/de̞/더/
+      - s/do̞/도/
+      - s/du/두/
+      - s/ta/따/
+      - s/te̞/떠/
+      - s/to̞/또/
+      - s/tu/뚜/
+      - s/ɻa/라/
+      - s/ɻe̞/러/
+      - s/ɻo̞/로/
+      - s/ɻu/루/
+      - s/ma/마/
+      - s/me̞/머/
+      - s/mo̞/모/
+      - s/mu/무/
+      - s/mi/미/
+      - s/ba/바/
+      - s/be̞/버/
+      - s/bo̞/보/
+      - s/bu/부/
+      - s/bi/비/
+      - s/pa/빠/
+      - s/pe̞/뻐/
+      - s/po̞/뽀/
+      - s/pu/뿌/
+      - s/pi/삐/
+      - s/za/사/
+      - s/ze̞/서/
+      - s/zo̞/소/
+      - s/zu/수/
+      - s/ʑi/시/
+      - s/sa/싸/
+      - s/se̞/써/
+      - s/so̞/쏘/
+      - s/su/쑤/
+      - s/ɕi/씨/
+      - s/ja/아/
+      - s/je̞/어/
+      - s/jo̞/오/
+      - s/ju/우/
+      - s/ji/이/
+      - s/wa/하/
+      - s/wo̞/호/
+      - s/wu/후/
+      - s/\.//
 
