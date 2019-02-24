@@ -80,7 +80,7 @@
   class: light
 -
   hangeul: 노
-  latin: no
+  latin: 'no'
   pronunciation: no̞
   initial: ㄴ
   final: ㅗ
